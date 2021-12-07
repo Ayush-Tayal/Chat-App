@@ -1,0 +1,65 @@
+.chat-box{
+    color: white;
+    margin: 20px;
+}
+
+.message-area{
+    border: 1px solid white;
+    height: 72vh;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    overflow: auto;
+    margin-top: 0;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;    
+}
+
+.left{
+    max-width: 30%;
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 5px 20px 0px 20px;
+    text-align: justify;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+.right{
+    margin-left: 68%;
+    max-width: 30%;
+    background-color: green;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 5px 20px 0px 20px;
+    text-align: justify;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form input{
+    font-size: 1.6rem;
+    padding: 5px;
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.form button{
+    font-size: 1.5rem;
+    padding: 12px;
+    font-weight: 900;
+    border-radius: 10px;
+    margin-right: 20px;
+}

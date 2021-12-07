@@ -1,0 +1,21 @@
+body {
+  background-color: rgba(0, 0, 0, 0.918);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* color:red; */
+  overflow: hidden;
+}
+
+*{
+  margin: 10px 0;
+  padding-bottom: 1px;
+
+}
+
+button{
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: none;
+}
+
+
+
