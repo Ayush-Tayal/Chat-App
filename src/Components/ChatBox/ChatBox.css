@@ -5,9 +5,10 @@
 
 .message-area{
     border: 1px solid white;
-    height: 72vh;
+    height: 71vh;
     color: white;
     padding: 10px;
+
     font-size: 1.5rem;
     overflow: auto;
     margin-top: 0;
@@ -17,26 +18,26 @@
 }
 
 .left{
-    max-width: 30%;
+    max-width: 20%;
     background-color: white;
     color: black;
     font-size: 1.5rem;
     font-weight: 700;
-    padding: 5px 20px 0px 20px;
+    padding: 2px 20px 0px 20px;    
     text-align: justify;
     margin-left: 5px;
     border-radius: 20px;
 }
 
 .right{
-    margin-left: 68%;
-    max-width: 30%;
+    margin-left: 75%;
+    max-width: 20%;
     background-color: green;
     color: white;
     font-size: 1.5rem;
     font-weight: 700;
     border-radius: 20px;
-    padding: 5px 20px 0px 20px;
+    padding: 2px 20px 0px 20px;
     text-align: justify;
 }
 
@@ -49,16 +50,20 @@
     font-size: 1.6rem;
     padding: 5px;
     width: 80%;
-    padding: 15px;
+    padding: 8px;
     border-radius: 10px;
     margin-left: 20px;
     margin-right: 20px;
+    height: 50px;
+    font-weight: 600;
+    font-family: Georgia, "Times New Roman", Times, serif;
+
 
 }
 
 .form button{
     font-size: 1.5rem;
-    padding: 12px;
+    padding: 8px;
     font-weight: 900;
     border-radius: 10px;
     margin-right: 20px;

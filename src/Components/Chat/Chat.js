@@ -18,7 +18,8 @@ const Chat = (props) => {
     const handleSignOut=async ()=>{
         await signout();
         localStorage.removeItem("userInfo");
-        history.push('/chat-app')
+        alert("Sign Out Successfully")
+        history.push('/')
         console.log("Sign out clicked")
     }
 
