@@ -41,12 +41,12 @@ const Signin = () => {
 
                 <div className="input-fields">
                     <label>Email</label>
-                    <input onChange={(e)=>{setEmail(e.target.value)}} />
+                    <input onChange={(e)=>{setEmail(e.target.value)}}  />
                 </div>
 
                 <div className="input-fields">
                     <label>Password</label>
-                    <input onChange={(e)=>{setPassword(e.target.value)}} />
+                    <input type="password" onChange={(e)=>{setPassword(e.target.value)}} />
                 </div>
             
                 <div className="sign-in-button">
