@@ -6,11 +6,8 @@ import Signin from './Components/SignIn/Signin';
 import Four0Four from './Components/Four0Four/Four0Four';
 import Navbar from './Components/Navbar/Navbar';
 import Chat from './Components/Chat/Chat';
-// import { auth } from './firebase';
-// import { useEffect, useState } from 'react';
 
 function App() {
-  // const [user, setUser] = useState({})
 
   const userEmail = localStorage.getItem("userInfo");
   // console.log("userInfo is", userEmail);
@@ -25,12 +22,6 @@ function App() {
         />
       )
   }
-
-  // useEffect(()=>{
-  //   setUser(auth.currentUser); //firebase method
-  // },[])
-  
-  // console.log("current user in appjs", user);
 
   return (
     <>

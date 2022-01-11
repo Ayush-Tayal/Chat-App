@@ -1,14 +1,7 @@
 body {
-  background-color: rgba(0, 0, 0, 0.918);
+  background-image: url('https://wallpaperaccess.com/full/2923163.jpg');
   font-family: Georgia, "Times New Roman", Times, serif;
-  /* color:red; */
-  /* overflow: hidden; */
-}
-
-*{
-  margin: 10px 0;
-  padding-bottom: 1px;
-
+  object-fit: cover;
 }
 
 button{
