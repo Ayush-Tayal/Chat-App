@@ -18,7 +18,7 @@ const Signup = () => {
         try{
             await signUp(email, password);
             registerUserForChat(name, email);
-            console.log("sign up clicked");
+            console.log("sign up");
             history.push("/signin");
         }
         catch(err){
@@ -35,7 +35,7 @@ const Signup = () => {
         <>
             <h1 className="error-message">{err?.message}</h1>
             <div className="sign-up">
-            <h1>Welcome to Sign up page</h1>
+            <h1> SIGN UP </h1>
 
                 <div className="su-input-fields">
                     <label>Name</label>

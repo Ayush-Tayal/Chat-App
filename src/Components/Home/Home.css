@@ -21,8 +21,12 @@
     padding-bottom: 40px;
 }
 
+.home-buttons {
+    margin-bottom: 10px;
+} 
+
 .home-buttons a{
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .home-buttons button{
@@ -32,6 +36,7 @@
     border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
+    margin-bottom: 10px;
     cursor: pointer;
     transition: all 0.2s ease-in;
 }
@@ -42,3 +47,20 @@
 
 }
 
+@media screen and (max-width:768px) {
+    .home-comp {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+        box-shadow: none; 
+
+    }
+
+    .home-comp h1 {
+        margin-top: 10px;
+    }
+
+}

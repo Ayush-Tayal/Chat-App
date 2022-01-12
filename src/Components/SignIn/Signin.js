@@ -37,7 +37,7 @@ const Signin = () => {
         <>
             <h1 className="error-message">{err?.message}</h1>
             <div className="sign-in">
-                <h1>Welcome to Sign in page</h1>
+                <h1> SIGN IN </h1>
 
                 <div className="input-fields">
                     <label>Email</label>

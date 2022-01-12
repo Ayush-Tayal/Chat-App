@@ -9,18 +9,19 @@ import Chat from './Components/Chat/Chat';
 
 function App() {
 
-  const userEmail = localStorage.getItem("userInfo");
+  let userEmail = localStorage.getItem("userInfo");
   // console.log("userInfo is", userEmail);
 
   function PrivateRoute ({Component, path}) {
-      return (
+    userEmail = localStorage.getItem("userInfo");
+    return (
         <Route 
         path={path}
         render={(props)=> 
           userEmail? <Component {...props} /> : <Redirect to='/signin'/> 
         }
         />
-      )
+    )
   }
 
   return (

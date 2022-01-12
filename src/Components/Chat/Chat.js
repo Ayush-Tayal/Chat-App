@@ -73,7 +73,7 @@ const Chat = (props) => {
         <div className="chat-component">
             <div className="chat">
                 <div className="chatUsers">
-                    <h3>All Users</h3>
+                    <h3> ACTIVE USERS </h3>
                     {
                         users.map((user, i)=>
                             <div key={i}>
@@ -81,11 +81,11 @@ const Chat = (props) => {
                             </div> 
                         )
                     }
-                    <button onClick={handleChatWithUsers} >Let's Chat</button>
+                    <button onClick={handleChatWithUsers} >Let's Chat </button>
                 </div>
 
                 <div className="signout-btn">
-                    <button onClick={handleSignOut}>Sign Out</button>
+                    <button onClick={handleSignOut}> Sign Out </button>
                 </div>
             </div>
 
